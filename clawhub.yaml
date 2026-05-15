@@ -1,0 +1,25 @@
+name: customer-research
+version: 1.0.3
+description: 客户调研技能 - 自动生成 Word 调研报告和场景破冰 PPT（before/after 对比）
+author: Dick Dunkel
+homepage: https://clawhub.ai/skills/customer-research
+license: MIT
+tags:
+  - sales
+  - meddic
+  - research
+  - ppt
+  - word
+  - secure
+category: sales
+dependencies:
+  - word-docx
+  - openclaw-ppt-generator
+entry: SKILL.md
+files:
+  - SKILL.md
+  - README.md
+  - AGENT_INSTRUCTIONS.md
+  - scripts/**
+  - references/**
+  - deploy.sh
